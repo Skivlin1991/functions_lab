@@ -31,3 +31,11 @@ def number_to_short_month_name(number_1):
 
 def vol_of_cube(side_length):
     return side_length **3
+
+def reverse_string(string_1):
+     new_strings = []
+     index = len(string_1)
+     while index:
+        index -= 1                       
+        new_strings.append(string_1[index])
+     return ''.join(new_strings)
